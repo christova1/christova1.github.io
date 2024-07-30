@@ -1,0 +1,19 @@
+/* styles.css */
+
+/* Gaya default untuk bunga agar tersembunyi */
+.hidden {
+    display: none;
+}
+
+/* Gaya untuk bunga yang ditampilkan */
+#flowerContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Gaya untuk gambar bunga */
+#flowerImage {
+  max-width: 100vw; /* Mengatur lebar maksimum gambar untuk memenuhi viewport */
+           max-height: 100vh; /* Mengatur tinggi maksimum gambar untuk memenuhi viewport */
+           object-fit: cover; /* Memastikan gambar memenuhi area tanpa merubah rasio aspek */
+}

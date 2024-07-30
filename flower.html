@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUARE BEAUTIFUL LIKE THIS..</title>
+    <link rel="stylesheet" href="styles_flower.css">
+    <title>Memusatkan Tombol</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Memastikan body mengambil tinggi viewport penuh */
+            display: grid;
+            place-items: center; /* Memusatkan elemen secara horizontal dan vertikal */
+        }
+
+        button {
+            padding: 10px 20px; /* Gaya tombol, sesuaikan sesuai keinginan */
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50; /* Warna latar belakang tombol */
+            color: white; /* Warna teks tombol */
+        }
+    </style>
+</head>
+<body>
+    <h1>YOU ARE BEAUTIFUL LIKE THIS...</h1>
+    <button id="showFlowerButton">like what?</button>
+    <div id="flowerContainer" class="hidden">
+        <img src="flower.jpeg" alt="Bunga" id="flowerImage">
+    </div>
+
+    <script src="script_flower.js"></script>
+</body>
+</html>
